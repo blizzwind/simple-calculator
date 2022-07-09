@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simple Calculator</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mini.css/3.0.1/mini-default.min.css">
+<style>
+#out {
+  width: calc(100% - 0.5rem);
+}
+.btn {
+  width: calc(25% - 1rem);
+}
+</style>
+</head>
+<body>
+<input id="out" type="text" onblur="this.focus()">
+<button class="btn" onclick="f7()">7</button><button class="btn" onclick="f8()">8</button><button class="btn" onclick="f9()">9</button><button class="btn" onclick="fplus()">+</button>
+<button class="btn" onclick="f4()">4</button><button class="btn" onclick="f5()">5</button><button class="btn" onclick="f6()">6</button><button class="btn" onclick="fminus()">-</button>
+<button class="btn" onclick="f1()">1</button><button class="btn" onclick="f2()">2</button><button class="btn" onclick="f3()">3</button><button class="btn" onclick="ftimes()">*</button>
+<button class="btn" onclick="f0()">0</button><button class="btn" onclick="fdot()">.</button><button class="btn" onclick="fsqrt()">√x</button><button class="btn" onclick="fdivide()">/</button>
+<button class="btn" onclick="fpi()">π</button><button class="btn" onclick="fe()">e</button><button class="btn" onclick="fsquare()">x²</button><button class="btn" onclick="fac()">AC</button>
+<button class="btn" onclick="fl()">(</button><button class="btn" onclick="fr()">)</button><button class="btn" onclick="fbs()">←</button><button class="btn" onclick="fenter()">=</button>
+<script src="pack/script.js"></script>
+</body>
+</html>
